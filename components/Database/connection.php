@@ -8,9 +8,10 @@
 $servername = "127.0.0.1";
 $username = "ulama2350245";
 $password = "@l03e1t3";
+$dbname = "ulama2350245";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password);
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // Check connection
 if (!$conn) {
@@ -18,18 +19,5 @@ if (!$conn) {
 }
 echo "Connected successfully";
 
-
-
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body>
-        
-    </body>
-    </html>
 
 ?>
